@@ -121,7 +121,7 @@ class startExecution():
                     search_files(directory, pattern)
 
                 if 'modify packages' in self.query:
-                    speak("Hello! How can I help you with package management?",var)
+                    speak("How can I help you with package management?",var)
                     command = takeCommand(var)
                     
                     if command:
